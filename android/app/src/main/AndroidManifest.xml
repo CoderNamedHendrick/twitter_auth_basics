@@ -27,8 +27,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="twitterauthbasics"
-                     /> <!-- host is option -->
+                <data android:scheme="twitterauthbasics" /> <!-- host is option -->
             </intent-filter>
         </activity>
         <meta-data
