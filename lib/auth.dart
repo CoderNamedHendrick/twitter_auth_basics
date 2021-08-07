@@ -20,8 +20,8 @@ class Auth implements AuthBase {
   @override
   Future<User> signInWithTwitter() async {
     final twitterLogin = TwitterLogin(
-      apiKey: "26UaFRMZvpHlwgcaFkY6wdFkG",
-      apiSecretKey: "fkP3C2WfmMFBEFyuLGOOHRTDFw6sHQxn0Kz8olsyhWYmyxTXsB",
+      apiKey: "fbgtRycxfKKjDL3x2wnqgM4t1",
+      apiSecretKey: "HrOa7qVTtxOTLihcNAx6K84On09HxfVaCzcMlc8xvnFGLS1Zi2",
       redirectURI: "twitterauthbasics://",
     );
     final authResult = await twitterLogin.login();
